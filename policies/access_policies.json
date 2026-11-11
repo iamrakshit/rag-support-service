@@ -1,0 +1,66 @@
+{
+  "_comment": "Low-code policy file. Support and security teams can change these rules without touching Python. Patterns are case-insensitive regular expressions.",
+  "version": "1.2",
+  "block_injection": {
+    "action": "refuse",
+    "patterns": [
+      "ignore (all |any |the )?(previous|prior|above) (instructions|rules|prompt)",
+      "disregard (your|the) (rules|instructions|guidelines)",
+      "\\bsystem prompt\\b",
+      "developer mode",
+      "\\bjailbreak\\b",
+      "pretend (you are|to be)",
+      "act as (an? )?(admin|administrator|developer|root)",
+      "you are now",
+      "(dump|export|print|list|show) (all|every|the full|the entire) (customer|order|user)",
+      "\\bdatabase\\b",
+      "\\bsql\\b",
+      "\\bselect \\*",
+      "base64",
+      "reveal your",
+      "i am (the|an?) (admin|administrator|store owner|manager|developer)",
+      "(override|bypass) (the )?(security|verification|rules)"
+    ]
+  },
+  "handoff_intents": {
+    "action": "handoff",
+    "patterns": [
+      "\\b(speak|talk|chat) (to|with) (a |an )?(human|person|agent|manager|someone)\\b",
+      "\\breal person\\b",
+      "\\b(lawyer|legal action|sue|court|lawsuit)\\b",
+      "\\bchargeback\\b",
+      "\\bdispute (the|a) charge\\b",
+      "\\b(fraud|fraudulent|scam|unauthori[sz]ed)\\b",
+      "\\b(hacked|compromised|someone else.*(account|card))\\b",
+      "\\b(injur|hurt|burn|allergic|rash|caught fire|fire|smoke)\\w*\\b",
+      "\\bcomplaint\\b",
+      "\\bbulk order\\b|\\bwholesale\\b|\\b(\\d{3,}) units\\b",
+      "\\b(charged|billed) twice\\b|\\bdouble charged\\b|\\bdouble charge\\b",
+      "\\bdelete (my|all my) (data|account|information)\\b|\\bprivacy request\\b|\\bgdpr\\b",
+      "\\bdiscriminat\\w*\\b|\\bharass\\w*\\b",
+      "\\bcustom (order|design|engrav\\w*)\\b|\\bengrav\\w*\\b",
+      "\\bwarranty claim\\b",
+      "\\b(late|deceased) (husband|wife|partner|father|mother|parent)\\b|\\bpassed away\\b",
+      "\\bjournalist\\b|\\bmedia inquiry\\b|\\bpress\\b",
+      "\\bcustom (order|design|engrav\\w*)\\b|\\bengrav\\w*\\b",
+      "\\bwarranty claim\\b",
+      "\\b(late|deceased) (husband|wife|partner|father|mother|parent)\\b|\\bpassed away\\b",
+      "\\bjournalist\\b|\\bmedia inquiry\\b|\\bpress\\b"
+    ]
+  },
+  "order_access": {
+    "signed_in_owner": "full_record",
+    "guest_with_order_number_and_email": "status_only",
+    "anyone_else": "refuse"
+  },
+  "confidence_gate": {
+    "min_score": 0.25,
+    "min_margin": 0.2,
+    "_comment": "Conservative on purpose: when unsure, hand off rather than guess."
+  },
+  "redact_in_replies": [
+    "email",
+    "phone",
+    "card_number"
+  ]
+}

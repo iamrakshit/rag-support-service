@@ -1,0 +1,15 @@
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+  api:
+    build: .
+    environment:
+      STORE_BACKEND: mongo
+      MONGO_URI: mongodb://mongo:27017
+      MONGO_DB: support_rag
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo

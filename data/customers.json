@@ -1,0 +1,7 @@
+[
+ {"order_id": "1041", "email": "maya.chen@example.com", "name": "Maya Chen", "postal_code": "L2R 3H6", "address": "12 Lake St, St. Catharines, ON", "phone": "905-555-0141", "card_last4": "4242", "status": "Shipped"},
+ {"order_id": "1042", "email": "omar.haddad@example.com", "name": "Omar Haddad", "postal_code": "M5V 2T6", "address": "88 King St W, Toronto, ON", "phone": "416-555-0142", "card_last4": "1881", "status": "Processing"},
+ {"order_id": "1043", "email": "lena.fischer@example.com", "name": "Lena Fischer", "postal_code": "L8P 4R5", "address": "301 Main St E, Hamilton, ON", "phone": "905-555-0143", "card_last4": "5100", "status": "Delivered"},
+ {"order_id": "1044", "email": "raj.patel@example.com", "name": "Raj Patel", "postal_code": "K1P 1J1", "address": "9 Wellington St, Ottawa, ON", "phone": "613-555-0144", "card_last4": "3782", "status": "Shipped"},
+ {"order_id": "1045", "email": "sofia.ruiz@example.com", "name": "Sofia Ruiz", "postal_code": "H2X 1Y4", "address": "45 Rue Sherbrooke, Montreal, QC", "phone": "514-555-0145", "card_last4": "6011", "status": "Delivered"}
+]

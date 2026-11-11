@@ -1,0 +1,5 @@
+# Only needed for the API and the MongoDB backend.
+# The ETL (local index), evaluation, demo and tests run on the Python standard library.
+fastapi==0.115.6
+uvicorn==0.32.1
+pymongo==4.10.1

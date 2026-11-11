@@ -1,0 +1,120 @@
+{"id": "S001", "message": "How do I track my order?", "expected": "order-tracking"}
+{"id": "S002", "message": "Where can I see the tracking number for my order?", "expected": "order-tracking"}
+{"id": "S003", "message": "Where is my parcel right now?", "expected": "order-tracking"}
+{"id": "S004", "message": "My tracking hasn't updated since yesterday, is that normal?", "expected": "order-tracking"}
+{"id": "S005", "message": "Can I get live tracking for order I placed Monday?", "expected": "order-tracking"}
+{"id": "S006", "message": "How long does standard shipping take?", "expected": "shipping-times"}
+{"id": "S007", "message": "When will my order arrive if I choose express?", "expected": "shipping-times"}
+{"id": "S008", "message": "What are your delivery times in Canada?", "expected": "shipping-times"}
+{"id": "S009", "message": "If I order before 2pm will it ship today?", "expected": "shipping-times"}
+{"id": "S010", "message": "How many business days for shipping to Ontario?", "expected": "shipping-times"}
+{"id": "S011", "message": "Do you ship to the United States?", "expected": "international-shipping"}
+{"id": "S012", "message": "Can I order from the UK?", "expected": "international-shipping"}
+{"id": "S013", "message": "Who pays customs duties on international orders?", "expected": "international-shipping"}
+{"id": "S014", "message": "How long does international shipping take?", "expected": "international-shipping"}
+{"id": "S015", "message": "Do you ship overseas to Australia?", "expected": "international-shipping"}
+{"id": "S016", "message": "I typed the wrong shipping address, can I change it?", "expected": "change-address"}
+{"id": "S017", "message": "How do I update the address on an order I just placed?", "expected": "change-address"}
+{"id": "S018", "message": "Can I change my shipping address after ordering?", "expected": "change-address"}
+{"id": "S019", "message": "I moved, can you send my order to my new address?", "expected": "change-address"}
+{"id": "S020", "message": "Edit address on my order please", "expected": "change-address"}
+{"id": "S021", "message": "How do I cancel my order?", "expected": "cancel-order"}
+{"id": "S022", "message": "I want to cancel an order I placed 20 minutes ago", "expected": "cancel-order"}
+{"id": "S023", "message": "Can I cancel an order that already shipped?", "expected": "cancel-order"}
+{"id": "S024", "message": "Please cancel my purchase", "expected": "cancel-order"}
+{"id": "S025", "message": "Is it too late to cancel my order?", "expected": "cancel-order"}
+{"id": "S026", "message": "How do I return an item?", "expected": "returns"}
+{"id": "S027", "message": "What is your return policy?", "expected": "returns"}
+{"id": "S028", "message": "Can I return an item I bought 3 weeks ago?", "expected": "returns"}
+{"id": "S029", "message": "Do you provide a free return label?", "expected": "returns"}
+{"id": "S030", "message": "Can I return a final sale item?", "expected": "returns"}
+{"id": "S031", "message": "When will I get my refund?", "expected": "refunds"}
+{"id": "S032", "message": "How long do refunds take?", "expected": "refunds"}
+{"id": "S033", "message": "I returned my item, where is my money?", "expected": "refunds"}
+{"id": "S034", "message": "My refund hasn't shown on my statement yet", "expected": "refunds"}
+{"id": "S035", "message": "Will the refund go back to my original payment method?", "expected": "refunds"}
+{"id": "S036", "message": "Can I exchange this for a different size?", "expected": "exchanges"}
+{"id": "S037", "message": "How do I swap a shirt for another colour?", "expected": "exchanges"}
+{"id": "S038", "message": "Is an exchange free?", "expected": "exchanges"}
+{"id": "S039", "message": "I want an exchange instead of a refund", "expected": "exchanges"}
+{"id": "S040", "message": "Can I exchange my shoes for a bigger size?", "expected": "exchanges"}
+{"id": "S041", "message": "My item arrived damaged", "expected": "damaged-item"}
+{"id": "S042", "message": "The product I received is broken", "expected": "damaged-item"}
+{"id": "S043", "message": "What do I do if my order is defective?", "expected": "damaged-item"}
+{"id": "S044", "message": "The mug came cracked in the box", "expected": "damaged-item"}
+{"id": "S045", "message": "Do I need to send back a damaged item?", "expected": "damaged-item"}
+{"id": "S046", "message": "My package says delivered but it's not here", "expected": "missing-package"}
+{"id": "S047", "message": "Tracking shows delivered but I never got it", "expected": "missing-package"}
+{"id": "S048", "message": "I think my parcel was stolen from my porch", "expected": "missing-package"}
+{"id": "S049", "message": "Order marked delivered but missing", "expected": "missing-package"}
+{"id": "S050", "message": "The carrier says delivered and I can't find the box", "expected": "missing-package"}
+{"id": "S051", "message": "What payment methods do you accept?", "expected": "payment-methods"}
+{"id": "S052", "message": "Can I pay with PayPal?", "expected": "payment-methods"}
+{"id": "S053", "message": "Do you take American Express?", "expected": "payment-methods"}
+{"id": "S054", "message": "Can I use Apple Pay at checkout?", "expected": "payment-methods"}
+{"id": "S055", "message": "Do you store my card number?", "expected": "payment-methods"}
+{"id": "S056", "message": "My payment was declined", "expected": "payment-declined"}
+{"id": "S057", "message": "Why does my card keep getting rejected at checkout?", "expected": "payment-declined"}
+{"id": "S058", "message": "Checkout says payment failed", "expected": "payment-declined"}
+{"id": "S059", "message": "My credit card was denied, what should I do?", "expected": "payment-declined"}
+{"id": "S060", "message": "Transaction declined but I have money in my account", "expected": "payment-declined"}
+{"id": "S061", "message": "How do I use a discount code?", "expected": "discount-codes"}
+{"id": "S062", "message": "My promo code isn't working", "expected": "discount-codes"}
+{"id": "S063", "message": "Can I use two coupon codes on one order?", "expected": "discount-codes"}
+{"id": "S064", "message": "Where do I enter a voucher code?", "expected": "discount-codes"}
+{"id": "S065", "message": "Can I apply a discount code after I placed my order?", "expected": "discount-codes"}
+{"id": "S066", "message": "Do gift cards expire?", "expected": "gift-cards"}
+{"id": "S067", "message": "How do I check my gift card balance?", "expected": "gift-cards"}
+{"id": "S068", "message": "Can I buy a gift card for a friend by email?", "expected": "gift-cards"}
+{"id": "S069", "message": "Can I exchange a gift card for cash?", "expected": "gift-cards"}
+{"id": "S070", "message": "How do I use my gift card at checkout?", "expected": "gift-cards"}
+{"id": "S071", "message": "I forgot my password", "expected": "password-reset"}
+{"id": "S072", "message": "How do I reset my password?", "expected": "password-reset"}
+{"id": "S073", "message": "I can't log in to my account", "expected": "password-reset"}
+{"id": "S074", "message": "The password reset email never arrived", "expected": "password-reset"}
+{"id": "S075", "message": "My reset link expired", "expected": "password-reset"}
+{"id": "S076", "message": "How do I change my email address on my account?", "expected": "account-update"}
+{"id": "S077", "message": "Where can I update my phone number?", "expected": "account-update"}
+{"id": "S078", "message": "How do I edit my saved addresses?", "expected": "account-update"}
+{"id": "S079", "message": "Can I change the name on my profile?", "expected": "account-update"}
+{"id": "S080", "message": "Update my account details", "expected": "account-update"}
+{"id": "S081", "message": "How do I cancel my subscription?", "expected": "subscriptions"}
+{"id": "S082", "message": "Can I pause my subscription for a month?", "expected": "subscriptions"}
+{"id": "S083", "message": "I want to skip my next delivery", "expected": "subscriptions"}
+{"id": "S084", "message": "How do I manage my subscription renewal?", "expected": "subscriptions"}
+{"id": "S085", "message": "When do I need to change my subscription before it renews?", "expected": "subscriptions"}
+{"id": "S086", "message": "The item I bought last week is now on sale, can I get the difference?", "expected": "price-adjustment"}
+{"id": "S087", "message": "Do you offer price adjustments?", "expected": "price-adjustment"}
+{"id": "S088", "message": "Price dropped two days after I bought it", "expected": "price-adjustment"}
+{"id": "S089", "message": "Can I get a refund of the difference if the price goes down?", "expected": "price-adjustment"}
+{"id": "S090", "message": "Is there price protection on clearance items?", "expected": "price-adjustment"}
+{"id": "S091", "message": "How do I know what size to order?", "expected": "sizing"}
+{"id": "S092", "message": "Where is the size chart?", "expected": "sizing"}
+{"id": "S093", "message": "Do your jeans run small?", "expected": "sizing"}
+{"id": "S094", "message": "I'm between sizes, which should I pick?", "expected": "sizing"}
+{"id": "S095", "message": "Is there a size guide in centimetres?", "expected": "sizing"}
+{"id": "S096", "message": "What are your support hours?", "expected": "contact-hours"}
+{"id": "S097", "message": "How can I contact your support team?", "expected": "contact-hours"}
+{"id": "S098", "message": "Are you open on weekends?", "expected": "contact-hours"}
+{"id": "S099", "message": "How quickly do you reply to emails?", "expected": "contact-hours"}
+{"id": "S100", "message": "Can I reach support by live chat?", "expected": "contact-hours"}
+{"id": "S101", "message": "I want to speak to a human", "expected": "HANDOFF"}
+{"id": "S102", "message": "Can I talk to a real person please", "expected": "HANDOFF"}
+{"id": "S103", "message": "I'm going to take legal action if this isn't fixed", "expected": "HANDOFF"}
+{"id": "S104", "message": "I want to file a chargeback with my bank", "expected": "HANDOFF"}
+{"id": "S105", "message": "There is a fraudulent charge from your store on my card", "expected": "HANDOFF"}
+{"id": "S106", "message": "My account was hacked and someone placed orders", "expected": "HANDOFF"}
+{"id": "S107", "message": "The heater I bought caught fire", "expected": "HANDOFF"}
+{"id": "S108", "message": "My child had an allergic reaction to the lotion", "expected": "HANDOFF"}
+{"id": "S109", "message": "I want to make a formal complaint about your staff", "expected": "HANDOFF"}
+{"id": "S110", "message": "We'd like to place a bulk order of 500 units for our company", "expected": "HANDOFF"}
+{"id": "S111", "message": "I was charged twice for the same order", "expected": "HANDOFF"}
+{"id": "S112", "message": "Please delete my account and all my data", "expected": "HANDOFF"}
+{"id": "S113", "message": "Your driver harassed me at my door", "expected": "HANDOFF"}
+{"id": "S114", "message": "Someone else used my card on your website", "expected": "HANDOFF"}
+{"id": "S115", "message": "I need to talk to a manager right now", "expected": "HANDOFF"}
+{"id": "S116", "message": "Can you build a custom engraved design for our wedding party of 40 people?", "expected": "HANDOFF"}
+{"id": "S117", "message": "My order was supposed to be a gift and the recipient's details are confidential, can we arrange private handover?", "expected": "HANDOFF"}
+{"id": "S118", "message": "The warranty claim for my espresso machine from 2019 was rejected", "expected": "HANDOFF"}
+{"id": "S119", "message": "I am a journalist writing about your supply chain, who can I speak to?", "expected": "HANDOFF"}
+{"id": "S120", "message": "My late husband's account needs to be closed and his subscription transferred", "expected": "HANDOFF"}
